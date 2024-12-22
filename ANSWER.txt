@@ -1,0 +1,97 @@
+1. 
+(base) biswas@MacBook-Pro Submission Material % python my-dns-client.py gmu.edu
+
+Preparing DNS Query..
+Contacting DNS server..
+Sending DNS Query ..
+DNS response received (attempt 1 of 3)
+Processing DNS response..
+---------------------------------------------------------------------------
+header.ID =  c5c5
+header.QR =  1
+header.OPCODE =  0
+header.AA =  0
+header.TC =  0
+header.RD =  1
+header.RA =  1
+header.Z =  0
+header.RCODE =  0
+header.QDCOUNT =  1
+header.ANCOUNT =  1
+header.NSCOUNT =  0
+header.ARCOUNT =  0
+question.QNAME =  gmu.edu.
+question.QTYPE =  type A
+question.QCLASS =  IN
+answer.NAME = gmu.edu
+answer.TYPE =  type A
+answer.CLASS =  IN
+answer.TTL =  120
+answer.RDLENGTH =  4
+answer.RDATA = 129.174.134.28    ## resolved IP address ##
+---------------------------------------------------------------------------
+
+2.
+(base) biswas@MacBook-Pro Submission Material % python my-dns-client.py facebook.com
+
+Preparing DNS Query..
+Contacting DNS server..
+Sending DNS Query ..
+DNS response received (attempt 1 of 3)
+Processing DNS response..
+---------------------------------------------------------------------------
+header.ID =  0ab1
+header.QR =  1
+header.OPCODE =  0
+header.AA =  0
+header.TC =  0
+header.RD =  1
+header.RA =  1
+header.Z =  0
+header.RCODE =  0
+header.QDCOUNT =  1
+header.ANCOUNT =  1
+header.NSCOUNT =  0
+header.ARCOUNT =  0
+question.QNAME =  facebook.com.
+question.QTYPE =  type A
+question.QCLASS =  IN
+answer.NAME = facebook.com
+answer.TYPE =  type A
+answer.CLASS =  IN
+answer.TTL =  120
+answer.RDLENGTH =  4
+answer.RDATA = 31.13.66.35    ## resolved IP address ##
+---------------------------------------------------------------------------
+3.
+(base) biswas@MacBook-Pro Submission Material % python my-dns-client.py instagram.com
+
+Preparing DNS Query..
+Contacting DNS server..
+Sending DNS Query ..
+DNS response received (attempt 1 of 3)
+Processing DNS response..
+---------------------------------------------------------------------------
+header.ID =  f8b9
+header.QR =  1
+header.OPCODE =  0
+header.AA =  0
+header.TC =  0
+header.RD =  1
+header.RA =  1
+header.Z =  0
+header.RCODE =  0
+header.QDCOUNT =  1
+header.ANCOUNT =  1
+header.NSCOUNT =  0
+header.ARCOUNT =  0
+question.QNAME =  instagram.com.
+question.QTYPE =  type A
+question.QCLASS =  IN
+answer.NAME = instagram.com
+answer.TYPE =  type A
+answer.CLASS =  IN
+answer.TTL =  120
+answer.RDLENGTH =  4
+answer.RDATA = 31.13.66.174    ## resolved IP address ##
+---------------------------------------------------------------------------
